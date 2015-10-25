@@ -41,9 +41,9 @@ The script performs the following tasks :
 
 4. Removes columns with duplicated names to avoid any issue down the line (duplicated columns names can create problems with dplyr), subsetting the data set with the logical statement ``!duplicated(names(mergedSet))``.
 
-5. Extracts the relevant columns (subject, activity, mean and standard deviation measurements) into a new data frame. Using the ``contains("mean()"), contains("std()"`` arguments of dplyr's ``select``function, I decided to look for the "mean()" and "std()" strings patterns as it seemed the most reliable way to extract the required measurements, according to the project instructions. This step resulted in the selection of 66 measurements from the original 561 ones.
+5. Extracts the relevant columns (*subject*, *activity*, mean and standard deviation measurements) into a new data frame. Using the ``contains("mean()"), contains("std()"`` arguments of dplyr's ``select``function, I decided to look for the "mean()" and "std()" strings patterns as it seemed the most reliable way to extract the required measurements, according to the project instructions. This step resulted in the selection of 66 measurements from the original 561 ones.
 
-6. Names the activities using a ``for`` loop which extracts the appropriate labels from the "activity_labels.txt" file, coerces them into characters with the ``as.character`` command and uses them to replace the activity numeric IDs in the data set column 2. The  *activity* column is then turned into a factor using the ``factor`` command, specifiying the right order with the ``levels`` argument.
+6. Names the activities using a ``for`` loop which extracts the appropriate descriptive labels from the "activity_labels.txt" file, coerces them into characters with the ``as.character`` command and uses them to replace the activity numeric IDs in the *activity* column. The *activity* variable is then turned into a factor using the ``factor`` command, specifiying the right order with the ``levels`` argument.
 
 7. Renames the data set variables to make them more descriptive (removing brackets, dash, as well as capital letters, and replacing abbreviated words with full words - see the codebook for more info about the variables names) using the ``gsub`` function inside a ``for`` loop.
 
