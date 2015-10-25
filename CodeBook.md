@@ -17,9 +17,9 @@ This project is part of the [Getting and Cleaning Data](https://class.coursera.o
 The purpose of this project is to demonstrate our ability to collect, work with and clean a data set. The goal is to prepare a tidy data set that can be used for later analysis. We were asked to submit : 
 
 1. a tidy data set
-2. a link to a Github repository with our script for performing the analysis
+2. a link to the [Github repository](https://github.com/cdromain/GettingAndCleaningDataProject) with our script for performing the analysis
 3. **a codebook (this file)**, called CodeBook.md, describing the variables, the data, and any transformations or work that we performed to clean up the data 
-4. a README.md in the repo, explaining how our script works
+4. a [README.md](https://github.com/cdromain/GettingAndCleaningDataProject/blob/master/README.md) in the repo, explaining how our script works
 
 The data linked to from the course website represent data collected from the Samsung Galaxy S smartphone's accelerometers  : "Human Activity Recognition Using Smartphones Dataset" (Version 1.0) by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto, Smartlab - Non Linear Complex Systems Laboratory, DITEN - Università degli Studi di Genova, Italy. A full description is available at [this website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
@@ -71,13 +71,13 @@ The original data set is made of 10 299 instances and 561 attributes (as describ
 
 ## How to create the tidy data file
 
-1. Download and unzip the original raw data set into the working directory (see the script above in the data collection part)
+1. Download and unzip the original raw data set into the working directory (see the script above in the data download part)
 
 2. Run the analysis script "run_analysis.R", which will create a "tidySet.txt" file into the working directory
 
 ## The analysis script
    
-As described in more details inside the README file accompaying it in the repo, the analysis script "run_analysis.R" performs the following tasks :
+As described in more details inside the [README file](https://github.com/cdromain/GettingAndCleaningDataProject/blob/master/README.md) accompanying it in the repo, the analysis script "run_analysis.R" performs the following tasks :
 
 1. Reads the training and test data sets into 2 data frames
 2. Merges the training and test data sets into a single data frame

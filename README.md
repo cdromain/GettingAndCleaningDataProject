@@ -17,9 +17,9 @@ This project is part of the [Getting and Cleaning Data](https://class.coursera.o
 The purpose of this project is to demonstrate our ability to collect, work with and clean a data set. The goal is to prepare a tidy data set that can be used for later analysis. We were asked to submit : 
 
 1. a tidy data set
-2. a link to a Github repository with our script for performing the analysis
-3. a code book (called CodeBook.md) describing the variables, the data, and any transformations or work that we performed to clean up the data 
-4. **a README.md (this document)** in the repo, explaining how our script works
+2. a link to the [Github repository](https://github.com/cdromain/GettingAndCleaningDataProject) with our script for performing the analysis
+3. a [Codebook](https://github.com/cdromain/GettingAndCleaningDataProject/blob/master/CodeBook.md) (called CodeBook.md) describing the variables, the data, and any transformations or work that we performed to clean up the data 
+4. **a README.md (this file)** in the repo, explaining how our script works
 
 The data linked to from the course website represent data collected from the Samsung Galaxy S smartphone's accelerometers : "Human Activity Recognition Using Smartphones Dataset" (Version 1.0) by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto, Smartlab - Non Linear Complex Systems Laboratory, DITEN - Università degli Studi di Genova, Italy. A full description is available at [this website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Please see the accompanying Codebook for more info about the original raw data and the way they were collected. 
 
@@ -97,7 +97,7 @@ The code for reading the tidySet textfile back into R and then taking a look at 
 
 - This analysis was done in RStudio 0.99.467 (R version 3.2.2 (2015-08-14) -- "Fire Safety") on Mac OSX 10.10.5.
 
-- Please refer to the accompanying Codebook for more information about the data and the variables.
+- Please refer to the accompanying [Codebook](https://github.com/cdromain/GettingAndCleaningDataProject/blob/master/CodeBook.md) for more information about the data and the variables.
 
 - Thanks and respect to the following sources authors who helped me completing this analysis :
 
